@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:background="#C5C4C4"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    tools:context=".Inicio">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reportes_de_incidentes"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnReporte"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="2"
+            android:drawableStart="@drawable/ic_action_llamada"
+            android:text="Reportar caso"
+            android:textStyle="bold"
+            android:onClick="Reporte"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_action_llamada" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_action_llamada" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_action_llamada" />
+
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
